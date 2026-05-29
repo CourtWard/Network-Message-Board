@@ -74,6 +74,7 @@ web_modules/
 
 # dotenv environment variable files
 .env
+.ent.test
 .env.development.local
 .env.test.local
 .env.production.local
@@ -89,7 +90,8 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+dist/
+build/
 
 # Gatsby files
 .cache/
@@ -134,3 +136,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
