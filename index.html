@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Message Board</title>
-		<script src="script.js"></script>
-	</head>
+<head>
+	<title>Message Board</title>
+	<script src="config.js"></script>
+	<script src="script.js"></script>
+</head>
 	
 	<body>
 		<h1>Messages</h1>
@@ -12,6 +13,6 @@
 		<button onclick="sendMessage()">Send</button>
 		
 		<ul id="messages"></ul>
-		
+		<script>loadMessages();</script>
 	</body>
 </html>

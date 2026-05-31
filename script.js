@@ -1,11 +1,7 @@
-const config = require('./config.json');
-const API =
-    `http://${config.ip_address}:3000`;
-
 async function loadMessages()
 {
     const response =
-        await fetch(`${API}/messages`);
+        await fetch(`${window.CONFIG}/messages`);
 
     const messages =
         await response.json();
@@ -30,8 +26,8 @@ async function sendMessage()
 {
     const text =
         document.getElementById("messageBox").value;
-
-    await fetch(`${API}/messages`,
+	
+    await fetch(`${window.CONFIG}/messages`,
     {
         method: "POST",
         headers:
@@ -44,5 +40,3 @@ async function sendMessage()
 
     loadMessages();
 }
-
-loadMessages();

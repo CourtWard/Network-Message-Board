@@ -12,6 +12,7 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Configuration data
 config.json
+config.js
 
 # Runtime data
 pids
@@ -143,3 +144,14 @@ build/
 # OS-specific files
 .DS_Store
 Thumbs.db
+.vs/Network-Message-Board.slnx/config/applicationhost.config
+.vs/Network-Message-Board.slnx/FileContentIndex/36734e0e-6181-439b-803b-3d2b3f2e3544.vsidx
+.vs/Network-Message-Board.slnx/FileContentIndex/57d10d34-3417-4c6d-9c5e-870d4d88d8bc.vsidx
+.vs/Network-Message-Board.slnx/v18/.wsuo
+.vs/Network-Message-Board.slnx/v18/DocumentLayout.backup.json
+.vs/Network-Message-Board.slnx/v18/DocumentLayout.json
+.vs/Network-Message-Board/CopilotIndices/18.6.39588.17144/CodeChunks.db
+.vs/Network-Message-Board/CopilotIndices/18.6.39588.17144/SemanticSymbols.db
+.vs/ProjectSettings.json
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite

@@ -16,10 +16,11 @@ OR
 
 ## User Set-Up
 1. Download index.html & script.js to the same folder.
-2. Create a new file named config.json in the same folder.
-3. Paste the following code in the config.json file: ``` {
-	"ip_address": ""
-} ```
+2. Create a new file named config.js in the same folder.
+3. Paste the following code in the config.js file: 
+```js
+window.CONFIG = "";
+```
 4. In the file inside the empty "" type the ip address of the computer acting as the server. <em>To find ip address of your server computer, type ipconfig in cmd & look for IPv4 Address.</em>
 5. Make sure both computers are on the same network.
 6. Run the index.html file.
